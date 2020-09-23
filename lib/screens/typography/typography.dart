@@ -186,10 +186,10 @@ class _TypographyPageState extends State<TypographyPage> {
                     text: 'GF Header Typo2',
                     type: GFTypographyType.typo2,
                     showDivider: false,
-                    backgroundImage: AssetImage('lib/assets/images/card3.png'),
+                    backgroundImage: AssetImage('assets/images/card3.png'),
                     icon: GFAvatar(
                       backgroundImage:
-                          AssetImage('lib/assets/images/avatar6.png'),
+                          AssetImage('assets/images/avatar6.png'),
                     ),
                   ),
                   SizedBox(
@@ -198,7 +198,7 @@ class _TypographyPageState extends State<TypographyPage> {
                   GFTypography(
                     text: 'GF Header Typo3',
                     type: GFTypographyType.typo3,
-                    backgroundImage: AssetImage('lib/assets/images/card2.png'),
+                    backgroundImage: AssetImage('assets/images/card2.png'),
                   ),
                   SizedBox(
                     height: 15,

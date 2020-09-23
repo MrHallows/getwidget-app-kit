@@ -3,18 +3,18 @@ import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
 
 final List<String> imageList = [
-  'lib/assets/images/card5.png',
-  'lib/assets/images/image.png',
-  'lib/assets/images/image1.png',
-  'lib/assets/images/image2.png',
-  'lib/assets/images/card4.png',
+  'assets/images/card5.png',
+  'assets/images/image.png',
+  'assets/images/image1.png',
+  'assets/images/image2.png',
+  'assets/images/card4.png',
 ];
 
 final List<String> assetImg = [
-  'lib/assets/images/red.png',
-  'lib/assets/images/purple.png',
-  'lib/assets/images/orange.png',
-  'lib/assets/images/red.png',
+  'assets/images/red.png',
+  'assets/images/purple.png',
+  'assets/images/orange.png',
+  'assets/images/red.png',
 ];
 
 final List<Color> gradientColor = [

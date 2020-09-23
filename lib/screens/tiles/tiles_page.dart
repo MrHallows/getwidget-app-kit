@@ -65,7 +65,7 @@ class _TilesPageState extends State<TilesPage> {
             const GFCard(
               content: GFListTile(
                 avatar: GFAvatar(
-                  backgroundImage: AssetImage('lib/assets/images/avatar5.png'),
+                  backgroundImage: AssetImage('assets/images/avatar5.png'),
                 ),
                 titleText: 'Title',
                 subtitleText: 'Open source UI library',
@@ -75,7 +75,7 @@ class _TilesPageState extends State<TilesPage> {
               content: GFListTile(
                 avatar: GFAvatar(
                   shape: GFAvatarShape.standard,
-                  backgroundImage: AssetImage('lib/assets/images/avatar11.png'),
+                  backgroundImage: AssetImage('assets/images/avatar11.png'),
                 ),
                 titleText: 'Title',
                 icon: Text('Caption'),

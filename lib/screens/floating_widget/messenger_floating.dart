@@ -23,7 +23,7 @@ class _MessengerFloatingWidgetState extends State<MessengerFloatingWidget> {
                         child: GFAvatar(
                           size: GFSize.LARGE,
                           backgroundImage:
-                              AssetImage('lib/assets/images/avatar5.png'),
+                              AssetImage('assets/images/avatar5.png'),
                         ),
                         counterChild: GFBadge(
                           text: '12',

@@ -255,19 +255,19 @@ class _ToastsState extends State<Toasts> {
 //            children: const <Widget>[
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar5.png'),
+//                AssetImage('assets/images/avatar5.png'),
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/img.png'),
+//                AssetImage('assets/images/img.png'),
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/img1.png'),
+//                AssetImage('assets/images/img1.png'),
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/img2.png'),
+//                AssetImage('assets/images/img2.png'),
 //              )
 //            ],
 //          ),
@@ -279,22 +279,22 @@ class _ToastsState extends State<Toasts> {
 //            children: const <Widget>[
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar6.png'),
+//                AssetImage('assets/images/avatar6.png'),
 //                shape: GFAvatarShape.standard,
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar11.png'),
+//                AssetImage('assets/images/avatar11.png'),
 //                shape: GFAvatarShape.standard,
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar9.png'),
+//                AssetImage('assets/images/avatar9.png'),
 //                shape: GFAvatarShape.standard,
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar12.png'),
+//                AssetImage('assets/images/avatar12.png'),
 //                shape: GFAvatarShape.standard,
 //              ),
 //            ],
@@ -307,23 +307,23 @@ class _ToastsState extends State<Toasts> {
 //            children: const <Widget>[
 //              GFAvatar(
 //                backgroundImage: AssetImage(
-//                  'lib/assets/images/avatar10.png',
+//                  'assets/images/avatar10.png',
 //                ),
 //                shape: GFAvatarShape.square,
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar12.png'),
+//                AssetImage('assets/images/avatar12.png'),
 //                shape: GFAvatarShape.square,
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar11.png'),
+//                AssetImage('assets/images/avatar11.png'),
 //                shape: GFAvatarShape.square,
 //              ),
 //              GFAvatar(
 //                backgroundImage:
-//                AssetImage('lib/assets/images/avatar6.png'),
+//                AssetImage('assets/images/avatar6.png'),
 //                shape: GFAvatarShape.square,
 //              ),
 //            ],

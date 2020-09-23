@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:gf_app/screens/radiolisttile/radiolisttile.dart';
-import '../screens/accordian/accordian.dart';
+import '../screens/accordion/accordion.dart';
 import '../screens/alert/alert.dart';
 import '../screens/appbar/app_home.dart';
 import '../screens/avatar/avatars.dart';
@@ -16,7 +16,7 @@ import '../screens/images/images.dart';
 import '../screens/loader/loaders.dart';
 import '../screens/progress_bar/progress_bar.dart';
 import '../screens/rating/rating.dart';
-import '../screens/searchbar/seachbar.dart';
+import 'searchbar/searchbar.dart';
 import '../screens/shimmer/shimmer.dart';
 import '../screens/tabs/tab_types.dart';
 import '../screens/tiles/tiles_page.dart';
@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           backgroundColor: GFColors.DARK,
           title: Image.asset(
-            'lib/assets/icons/gflogo.png',
+            'assets/icons/gflogo.png',
             width: 150,
           ),
           centerTitle: true,

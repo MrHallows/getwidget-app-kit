@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
-import '../../screens/accordian/accordian.dart';
+import '../../screens/accordion/accordion.dart';
 import '../../screens/alert/alert.dart';
 import '../../screens/appbar/app_home.dart';
 import '../../screens/avatar/avatars.dart';
@@ -20,7 +20,7 @@ import '../../screens/images/images.dart';
 import '../../screens/loader/loaders.dart';
 import '../../screens/progress_bar/progress_bar.dart';
 import '../../screens/rating/rating.dart';
-import '../../screens/searchbar/seachbar.dart';
+import '../../screens/searchbar/searchbar.dart';
 import '../../screens/shimmer/shimmer.dart';
 import '../../screens/tabs/tab_types.dart';
 import '../../screens/tiles/tiles_page.dart';
@@ -81,7 +81,7 @@ class _DrawerPageState extends State<DrawerPage> {
                     const GFAvatar(
                       radius: 40,
                       backgroundImage: AssetImage(
-                        'lib/assets/images/gflogo.png',
+                        'assets/images/gflogo.png',
                       ),
                     ),
                     const SizedBox(

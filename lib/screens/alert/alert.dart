@@ -262,7 +262,7 @@ class _AlertPageState extends State<AlertPage> {
                               alignment: Alignment.center,
                               backgroundColor: Colors.white,
                               child: Image.asset(
-                                'lib/assets/gif/success1.gif',
+                                'assets/gif/success1.gif',
                                 width: 80,
                               ),
                               contentChild: const Text(

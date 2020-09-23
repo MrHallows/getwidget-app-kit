@@ -19,7 +19,7 @@ class _WebViewState extends State<WebView> {
               appBar: new AppBar(
                 // title: new Text("Widget webview"),
                 title: Image.asset(
-                  'lib/assets/icons/gflogo.png',
+                  'assets/icons/gflogo.png',
                   width: 150,
                 ),
                 centerTitle: true,

@@ -240,7 +240,7 @@ class _LoadersState extends State<Loaders> {
                       GFLoader(
                         type: GFLoaderType.custom,
                         child: Image(
-                          image: AssetImage('lib/assets/gif/loader.gif'),
+                          image: AssetImage('assets/gif/loader.gif'),
                           width: 150,
                         ),
                       ),
@@ -248,7 +248,7 @@ class _LoadersState extends State<Loaders> {
                         type: GFLoaderType.custom,
                         size: GFSize.SMALL,
                         child: Image(
-                          image: AssetImage('lib/assets/gif/loader1.gif'),
+                          image: AssetImage('assets/gif/loader1.gif'),
                           width: 150,
                         ),
                       ),

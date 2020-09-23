@@ -93,7 +93,7 @@ class _CardPageState extends State<CardPage>
                         GFCard(
                           boxFit: BoxFit.cover,
                           image: Image.asset(
-                            'lib/assets/images/card.png',
+                            'assets/images/card.png',
                             width: MediaQuery.of(context).size.width,
                             fit: BoxFit.fitWidth,
                           ),
@@ -141,7 +141,7 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.67), BlendMode.darken),
                           image: Image.asset(
-                            'lib/assets/images/card1.png',
+                            'assets/images/card1.png',
                             width: MediaQuery.of(context).size.width,
                             fit: BoxFit.fitWidth,
                           ),
@@ -187,7 +187,7 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.67), BlendMode.darken),
                           image: Image.asset(
-                            'lib/assets/images/card2.png',
+                            'assets/images/card2.png',
                             width: MediaQuery.of(context).size.width,
                             fit: BoxFit.fitWidth,
                           ),
@@ -214,7 +214,7 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.67), BlendMode.darken),
                           image: Image.asset(
-                            'lib/assets/images/card3.png',
+                            'assets/images/card3.png',
                             width: MediaQuery.of(context).size.width,
                             fit: BoxFit.fitWidth,
                           ),
@@ -251,7 +251,7 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.67), BlendMode.darken),
                           image: Image.asset(
-                            'lib/assets/images/image1.png',
+                            'assets/images/image1.png',
                             width: MediaQuery.of(context).size.width,
                             fit: BoxFit.fitWidth,
                           ),
@@ -259,7 +259,7 @@ class _CardPageState extends State<CardPage>
                           title: GFListTile(
                             avatar: const GFAvatar(
                               backgroundImage:
-                                  AssetImage('lib/assets/images/avatar8.png'),
+                                  AssetImage('assets/images/avatar8.png'),
                             ),
                             titleText: 'Card Title',
                             subtitleText: 'Sub Title',
@@ -291,7 +291,7 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.67), BlendMode.darken),
                           image: Image.asset(
-                            'lib/assets/images/image2.png',
+                            'assets/images/image2.png',
                             width: MediaQuery.of(context).size.width,
                             fit: BoxFit.fitWidth,
                           ),
@@ -299,7 +299,7 @@ class _CardPageState extends State<CardPage>
                           title: const GFListTile(
                             avatar: GFAvatar(
                               backgroundImage:
-                                  AssetImage('lib/assets/images/avatar9.png'),
+                                  AssetImage('assets/images/avatar9.png'),
                             ),
                             titleText: 'Card Title',
                             subtitleText: 'Sub Title',
@@ -355,11 +355,11 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.60), BlendMode.darken),
                           imageOverlay:
-                              const AssetImage('lib/assets/images/image.png'),
+                              const AssetImage('assets/images/image.png'),
                           title: GFListTile(
                             avatar: const GFAvatar(
                               backgroundImage:
-                                  AssetImage('lib/assets/images/avatar10.png'),
+                                  AssetImage('assets/images/avatar10.png'),
                             ),
                             title: Text(
                               'Card Title',
@@ -395,7 +395,7 @@ class _CardPageState extends State<CardPage>
                           colorFilter: ColorFilter.mode(
                               Colors.black.withOpacity(0.40), BlendMode.darken),
                           imageOverlay:
-                              const AssetImage('lib/assets/images/image1.png'),
+                              const AssetImage('assets/images/image1.png'),
                           title: GFListTile(
                             title: Text(
                               'Card Title',

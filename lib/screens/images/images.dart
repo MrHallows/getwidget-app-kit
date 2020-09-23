@@ -94,7 +94,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                 height: 200,
                                 width: 280,
                                 image:
-                                    AssetImage('lib/assets/images/image2.png'),
+                                    AssetImage('assets/images/image2.png'),
                               )
                             ],
                           ),
@@ -107,7 +107,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                 height: 200,
                                 width: 280,
                                 image:
-                                    AssetImage('lib/assets/images/image.png'),
+                                    AssetImage('assets/images/image.png'),
                               )
                             ],
                           ),
@@ -120,7 +120,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                 height: 200,
                                 width: 280,
                                 image:
-                                    AssetImage('lib/assets/images/image1.png'),
+                                    AssetImage('assets/images/image1.png'),
                               )
                             ],
                           ),
@@ -139,14 +139,14 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                 height: 140,
                                 width: 140,
                                 shape: BoxShape.circle,
-                                image: AssetImage('lib/assets/images/img.png'),
+                                image: AssetImage('assets/images/img.png'),
                               ),
                               GFImageOverlay(
                                 height: 140,
                                 width: 140,
                                 shape: BoxShape.circle,
                                 image: AssetImage(
-                                  'lib/assets/images/img1.png',
+                                  'assets/images/img1.png',
                                 ),
                               )
                             ],
@@ -160,7 +160,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                 height: 200,
                                 width: 200,
                                 shape: BoxShape.circle,
-                                image: AssetImage('lib/assets/images/img2.png'),
+                                image: AssetImage('assets/images/img2.png'),
                               ),
                             ],
                           ),
@@ -188,7 +188,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                     Colors.black.withOpacity(0.20),
                                     BlendMode.darken),
                                 image: const AssetImage(
-                                    'lib/assets/images/image1.png'),
+                                    'assets/images/image1.png'),
                               ),
                             ],
                           ),
@@ -209,7 +209,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                     Colors.black.withOpacity(0.40),
                                     BlendMode.darken),
                                 image: const AssetImage(
-                                    'lib/assets/images/image1.png'),
+                                    'assets/images/image1.png'),
                               ),
                             ],
                           ),
@@ -230,7 +230,7 @@ class _ImagesState extends State<Images> with SingleTickerProviderStateMixin {
                                     Colors.black.withOpacity(0.60),
                                     BlendMode.darken),
                                 image: const AssetImage(
-                                    'lib/assets/images/image1.png'),
+                                    'assets/images/image1.png'),
                               ),
                             ],
                           ),
