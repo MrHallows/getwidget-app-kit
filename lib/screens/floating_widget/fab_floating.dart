@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class FabFloatingWidget extends StatefulWidget {
   @override
@@ -36,7 +37,7 @@ class _FabFloatingWidgetState extends State<FabFloatingWidget>
   AnimationController controller, _controller;
   Animation<Offset> offset, offset1;
 
-  bool showfabFloatingWidget = false;
+  bool showFabFloatingWidget = false;
 
   @override
   void dispose() {
@@ -54,14 +55,14 @@ class _FabFloatingWidgetState extends State<FabFloatingWidget>
             margin: const EdgeInsets.only(top: 20),
             child: GFIconButton(
                 icon:
-                    showfabFloatingWidget ? Icon(Icons.close) : Icon(Icons.add),
+                    showFabFloatingWidget ? Icon(Icons.close) : Icon(Icons.add),
                 shape: GFIconButtonShape.circle,
                 color: GFColors.PRIMARY,
 //                  iconSize: 80,
                 size: 100,
                 onPressed: () {
                   setState(() {
-                    showfabFloatingWidget = !showfabFloatingWidget;
+                    showFabFloatingWidget = !showFabFloatingWidget;
                   });
                   switch (controller.status) {
                     case AnimationStatus.completed:
@@ -84,10 +85,10 @@ class _FabFloatingWidgetState extends State<FabFloatingWidget>
                     text: 'FAB Button as a Floating Widget',
                     type: GFTypographyType.typo5,
                     dividerWidth: 25,
-                    dividerColor: Color(0xFF19CA4B),
+                    dividerColor: WFAColors.accent,
                   ),
                 ),
-                showfabFloatingWidget
+                showFabFloatingWidget
                     ? SlideTransition(
                         position: offset,
                         child: Container(

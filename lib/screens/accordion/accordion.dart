@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class Accordion extends StatefulWidget {
   @override
@@ -36,7 +37,7 @@ class _AccordionState extends State<Accordion> {
                 text: 'Basic Accordion',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accentColor,
               ),
             ),
             GFAccordion(
@@ -68,7 +69,7 @@ class _AccordionState extends State<Accordion> {
                 text: 'Accordion with Text',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFAccordion(
@@ -105,7 +106,7 @@ class _AccordionState extends State<Accordion> {
                 text: 'Accordion with Icon',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFAccordion(

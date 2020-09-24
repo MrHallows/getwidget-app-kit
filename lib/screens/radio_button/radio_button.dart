@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class RadioButtonPage extends StatefulWidget {
   @override
@@ -56,7 +57,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                 text: 'Basic Radio Button',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
 
@@ -67,12 +68,12 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                 GFRadio(
 //                type: GFRadioButtonType.custom,
                   size: GFSize.LARGE,
-//                activebgColor: Colors.red,
-//                inactivebgColor: Colors.amber,
+//                activeBackgroundColor: Colors.red,
+//                inactiveBackgroundColor: Colors.amber,
 //                inactiveBorderColor: Colors.purple,
 //                activeBorderColor: Colors.pink,
 //                radioColor: Colors.black87,
-//                custombgColor: Colors.red,
+//                customBackgroundColor: Colors.red,
                   value: 0,
                   groupValue: groupValue,
                   onChanged: (val) {
@@ -125,10 +126,10 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
             const Padding(
               padding: EdgeInsets.only(left: 15, top: 30),
               child: GFTypography(
-                text: 'Sqaure Radio Button',
+                text: 'Square Radio Button',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
 
@@ -139,12 +140,12 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                 GFRadio(
                   type: GFRadioType.square,
                   size: GFSize.LARGE,
-//                activebgColor: Colors.red,
-//                inactivebgColor: Colors.amber,
+//                activeBackgroundColor: Colors.red,
+//                inactiveBackgroundColor: Colors.amber,
 //                inactiveBorderColor: Colors.purple,
 //                activeBorderColor: Colors.pink,
 //                radioColor: Colors.black87,
-//                custombgColor: Colors.red,
+//                customBackgroundColor: Colors.red,
                   value: 4,
                   groupValue: groupValue,
                   onChanged: (val) {
@@ -204,7 +205,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                 text: 'Custom type 1 Radio Button',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
 
@@ -215,12 +216,12 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                 GFRadio(
                     type: GFRadioType.blunt,
                     size: GFSize.LARGE,
-//                activebgColor: Colors.red,
-//                inactivebgColor: Colors.amber,
+//                activeBackgroundColor: Colors.red,
+//                inactiveBackgroundColor: Colors.amber,
 //                inactiveBorderColor: Colors.purple,
 //                activeBorderColor: Colors.pink,
 //                radioColor: Colors.black87,
-//                custombgColor: Colors.red,
+//                customBackgroundColor: Colors.red,
                     value: 8,
                     groupValue: groupValue,
                     onChanged: (val) {
@@ -229,7 +230,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                       });
                     },
                     inactiveIcon: null,
-                    custombgColor: GFColors.DANGER),
+                    customBackgroundColor: GFColors.DANGER),
                 GFRadio(
                   type: GFRadioType.blunt,
                   size: GFSize.MEDIUM,
@@ -241,7 +242,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                     });
                   },
                   inactiveIcon: null,
-                  custombgColor: GFColors.WARNING,
+                  customBackgroundColor: GFColors.WARNING,
                 ),
                 GFRadio(
                   type: GFRadioType.blunt,
@@ -254,7 +255,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                     });
                   },
                   inactiveIcon: null,
-                  custombgColor: GFColors.DARK,
+                  customBackgroundColor: GFColors.DARK,
                 ),
                 GFRadio(
                   type: GFRadioType.blunt,
@@ -267,7 +268,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                     });
                   },
                   inactiveIcon: null,
-                  custombgColor: GFColors.SUCCESS,
+                  customBackgroundColor: GFColors.SUCCESS,
                 )
               ],
             )),
@@ -278,7 +279,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                 text: 'Custom Type 2 Radio Button',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
 
@@ -291,7 +292,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                   activeIcon: Icon(Icons.check),
                   radioColor: Colors.red,
                   size: GFSize.LARGE,
-                  inactivebgColor: Colors.amber,
+                  inactiveBackgroundColor: Colors.amber,
                   inactiveBorderColor: Colors.purple,
                   activeBorderColor: Colors.pink,
                   value: 12,
@@ -314,7 +315,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                     });
                   },
                   inactiveIcon: Icon(Icons.sentiment_dissatisfied),
-                  custombgColor: GFColors.WARNING,
+                  customBackgroundColor: GFColors.WARNING,
                 ),
                 GFRadio(
                   type: GFRadioType.blunt,
@@ -327,7 +328,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                     });
                   },
                   inactiveIcon: null,
-                  custombgColor: GFColors.DARK,
+                  customBackgroundColor: GFColors.DARK,
                 ),
                 GFRadio(
                   type: GFRadioType.blunt,
@@ -340,7 +341,7 @@ class _RadioButtonPageState extends State<RadioButtonPage> {
                     });
                   },
                   inactiveIcon: null,
-                  custombgColor: GFColors.SUCCESS,
+                  customBackgroundColor: GFColors.SUCCESS,
                 ),
               ],
             ))

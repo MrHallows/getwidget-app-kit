@@ -3,6 +3,8 @@ import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
 import 'dart:async';
 
+import 'package:gf_app/colors.dart';
+
 class Toasts extends StatefulWidget {
   @override
   _ToastsState createState() => _ToastsState();
@@ -11,14 +13,14 @@ class Toasts extends StatefulWidget {
 class _ToastsState extends State<Toasts> {
   bool showFloatingToast = false;
   Timer autoTimer;
-  bool showblurness = true;
+  bool showBlur = true;
   Duration autoTimerDuration = Duration(milliseconds: 400);
 
 //  @override
 //  initState(){
 //    autoTimer = Timer(autoTimerDuration, (){
 //      setState((){
-//        showblurness = true;
+//        showBlur = true;
 //        autoTimer= Timer()
 //      });
 //    });
@@ -47,26 +49,26 @@ class _ToastsState extends State<Toasts> {
         body: GFFloatingWidget(
           verticalPosition: MediaQuery.of(context).size.width * 0.5,
           horizontalPosition: MediaQuery.of(context).size.height * 0.02,
-          showblurness: showFloatingToast,
-          blurnessColor: Colors.black87,
+          showBlur: showFloatingToast,
+          blurColor: Colors.black87,
           child: showFloatingToast
-              ? GFToast(
-                  backgroundColor: Colors.white,
-                  text:
-                      'You have succesfully viewed how the floating toast works!!',
-                  textStyle: const TextStyle(color: Colors.black87),
-                  button: GFButton(
-                    onPressed: () {
-                      setState(() {
-                        showFloatingToast = false;
-                      });
-                    },
-                    text: 'OK',
-                    type: GFButtonType.transparent,
-                    color: GFColors.SUCCESS,
-                  ),
-                  autoDismiss: false,
-                )
+            ? GFToast(
+                backgroundColor: Colors.white,
+                text:
+                    'You have successfully viewed how the floating toast works!',
+                textStyle: const TextStyle(color: Colors.black87),
+                button: GFButton(
+                  onPressed: () {
+                    setState(() {
+                      showFloatingToast = false;
+                    });
+                  },
+                  text: 'OK',
+                  type: GFButtonType.transparent,
+                  color: GFColors.SUCCESS,
+                ),
+                autoDismiss: false,
+              )
               : Container(),
           body: ListView(
             physics: const ScrollPhysics(),
@@ -74,14 +76,14 @@ class _ToastsState extends State<Toasts> {
               const Padding(
                 padding: EdgeInsets.only(left: 15, top: 30, bottom: 10),
                 child: GFTypography(
-                  text: 'Animated Toasts (Auto Dismissable)',
+                  text: 'Animated Toasts (Auto-dismissible)',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFToast(
-                text: 'Auto Dismissable after the given duration !',
+                text: 'Auto-dismissible after the given duration !',
                 button: GFButton(
                   onPressed: () {},
                   text: 'OK',
@@ -105,11 +107,11 @@ class _ToastsState extends State<Toasts> {
                   text: 'Basic Toasts',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFToast(
-                text: 'Paired Succesfully !',
+                text: 'Paired Successfully !',
                 button: GFButton(
                   onPressed: () {},
                   text: 'OK',
@@ -140,11 +142,11 @@ class _ToastsState extends State<Toasts> {
                   text: 'Rounded Toasts',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFToast(
-                text: 'Paired Succesfully !',
+                text: 'Paired Successfully !',
                 button: GFButton(
                   onPressed: () {},
                   text: 'OK',
@@ -177,11 +179,11 @@ class _ToastsState extends State<Toasts> {
                   text: 'Full Width Toasts',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFToast(
-                text: 'Paired Succesfully !',
+                text: 'Paired Successfully !',
                 button: GFButton(
                   onPressed: () {},
                   text: 'OK',
@@ -212,7 +214,7 @@ class _ToastsState extends State<Toasts> {
                   text: 'Floating Toast',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               Container(
@@ -235,12 +237,12 @@ class _ToastsState extends State<Toasts> {
 
 //
 //  body: GFFloatingWidget(
-//    showblurness: showblurness,
-//    blurnessColor: Colors.black54,
+//    showBlur: showBlur,
+//    blurColor: Colors.black54,
 //    child: GFToast(
 //      text: 'Hi Hello',
 //         autoDismissDuration: autoTimerDuration,
-////       autoDismissDuration: Duration(autoTimer),
+// //       autoDismissDuration: Duration(autoTimer),
 //
 //
 //    ),
@@ -333,7 +335,7 @@ class _ToastsState extends State<Toasts> {
 //          ),
 //
 //
-//          GFButton(onPressed: (){}, text: 'Click for auto dismissable toast',)
+//          GFButton(onPressed: (){}, text: 'Click for auto-dismissible toast',)
 //        ],
 //      ),
 //    )

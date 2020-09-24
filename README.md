@@ -43,7 +43,7 @@ we have launched the library with the following components :
 
    ### Play Store
    <p align="left">
-        <a href="https://play.google.com/store/apps/details?id=dev.getflutter.appkit" target="_blank">
+        <a href="https://play.google.com/store/apps/details?id=dev.getwidget.appkit" target="_blank">
           <img src="https://ik.imagekit.io/ionicfirebaseapp/tr:dpr-auto,tr:w-auto/playstore_NQQBiJIQ1.png" alt="Get Flutter playstore Demo">
         </a>
       </p>

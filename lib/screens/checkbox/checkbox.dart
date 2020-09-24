@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class CheckBoxPage extends StatefulWidget {
   @override
@@ -49,7 +50,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                 text: 'Basic Checkbox',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -58,7 +59,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                 children: <Widget>[
                   GFCheckbox(
                     size: GFSize.SMALL,
-                    activebgColor: GFColors.DANGER,
+                    activeBackgroundColor: GFColors.DANGER,
                     onChanged: (val) {
                       setState(() {
                         check = val;
@@ -68,7 +69,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                     inactiveIcon: null,
                   ),
                   GFCheckbox(
-                    activebgColor: GFColors.SECONDARY,
+                    activeBackgroundColor: GFColors.SECONDARY,
                     onChanged: (val) {
                       setState(() {
                         check1 = val;
@@ -79,7 +80,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                   ),
                   GFCheckbox(
                     size: GFSize.LARGE,
-                    activebgColor: GFColors.SUCCESS,
+                    activeBackgroundColor: GFColors.SUCCESS,
                     onChanged: (val) {
                       setState(() {
                         check2 = val;
@@ -97,7 +98,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                 text: 'Square Checkbox',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -106,7 +107,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                 children: <Widget>[
                   GFCheckbox(
                     size: GFSize.SMALL,
-                    activebgColor: GFColors.ALT,
+                    activeBackgroundColor: GFColors.ALT,
                     type: GFCheckboxType.square,
                     onChanged: (val) {
                       setState(() {
@@ -118,7 +119,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                   ),
                   GFCheckbox(
                     type: GFCheckboxType.square,
-                    activebgColor: GFColors.INFO,
+                    activeBackgroundColor: GFColors.INFO,
                     onChanged: (val) {
                       setState(() {
                         check4 = val;
@@ -129,7 +130,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                   ),
                   GFCheckbox(
                     size: GFSize.LARGE,
-                    activebgColor: GFColors.DARK,
+                    activeBackgroundColor: GFColors.DARK,
                     type: GFCheckboxType.square,
                     onChanged: (val) {
                       setState(() {
@@ -148,7 +149,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                 text: 'Circular Checkbox',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -168,7 +169,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                   ),
                   GFCheckbox(
                     type: GFCheckboxType.circle,
-                    activebgColor: GFColors.WARNING,
+                    activeBackgroundColor: GFColors.WARNING,
                     onChanged: (val) {
                       setState(() {
                         check7 = val;
@@ -177,7 +178,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                     value: check7,
                   ),
                   GFCheckbox(
-                    activebgColor: GFColors.SECONDARY,
+                    activeBackgroundColor: GFColors.SECONDARY,
                     size: GFSize.LARGE,
                     type: GFCheckboxType.circle,
                     onChanged: (val) {
@@ -197,7 +198,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                 text: 'Custom Checkbox',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -217,7 +218,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                   ),
                   GFCheckbox(
                     type: GFCheckboxType.square,
-                    activebgColor: GFColors.INFO,
+                    activeBackgroundColor: GFColors.INFO,
                     activeIcon: Icon(Icons.sentiment_satisfied),
                     onChanged: (val) {
                       setState(() {
@@ -229,7 +230,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                   ),
                   GFCheckbox(
                     size: GFSize.MEDIUM,
-//            activebgColor: GFColors.,
+//            activeBackgroundColor: GFColors.,
                     type: GFCheckboxType.custom,
                     onChanged: (val) {
                       setState(() {
@@ -237,7 +238,7 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
                       });
                     },
                     value: check11,
-                    custombgColor: Colors.purple,
+                    customBackgroundColor: Colors.purple,
                     inactiveIcon: null,
                   ),
                 ],
@@ -256,11 +257,11 @@ class _CheckBoxPageState extends State<CheckBoxPage> {
 //           },
 //           value: true,
 //           type: GFCheckboxType.circle,
-////           checkColor: GFColors.DANGER,
-////activebgColor: Colors.green,
-////inactivebgColor: Colors.white,
-////activeBorderColor: Colors.red,
-////           backgroundColor: Colors.green,
+// //           checkColor: GFColors.DANGER,
+// // activeBackgroundColor: Colors.green,
+// // inactiveBackgroundColor: Colors.white,
+// // activeBorderColor: Colors.red,
+// //           backgroundColor: Colors.green,
 //         ),
 //       ),
       );

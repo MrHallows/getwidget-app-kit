@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class ProgressBar extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _ProgressBarState extends State<ProgressBar> {
                 text: 'Linear Progress Bars',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             Container(
@@ -113,7 +114,7 @@ class _ProgressBarState extends State<ProgressBar> {
                 text: 'Circular Progress Bars',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             Container(

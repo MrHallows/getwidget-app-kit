@@ -38,7 +38,7 @@ class _RadioListTilePageState extends State<RadioListTilePage> {
               avatar: GFAvatar(),
 
               size: GFSize.SMALL,
-              // activebgColor: GFColors.DANGER,
+              // activeBackgroundColor: GFColors.DANGER,
               activeBorderColor: Colors.purple,
               type: GFRadioType.square,
               inactiveBorderColor: Colors.deepOrangeAccent,
@@ -57,7 +57,7 @@ class _RadioListTilePageState extends State<RadioListTilePage> {
               avatar: GFAvatar(),
 
               size: GFSize.SMALL,
-              // activebgColor: GFColors.DANGER,
+              // activeBackgroundColor: GFColors.DANGER,
               activeBorderColor: Colors.purple,
               type: GFRadioType.square,
               inactiveBorderColor: Colors.deepOrangeAccent,

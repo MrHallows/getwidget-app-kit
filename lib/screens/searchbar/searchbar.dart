@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class SearchbarPage extends StatefulWidget {
   @override
@@ -47,7 +48,7 @@ class _SearchbarPageState extends State<SearchbarPage> {
                 text: 'Basic SearchBar',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFSearchBar(
@@ -74,7 +75,7 @@ class _SearchbarPageState extends State<SearchbarPage> {
                 text: 'Customised SearchBar',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFSearchBar(

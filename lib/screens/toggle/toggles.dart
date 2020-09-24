@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class Toggles extends StatefulWidget {
   @override
@@ -37,7 +38,7 @@ class _TogglesState extends State<Toggles> {
                   text: 'Basic',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(
@@ -87,7 +88,7 @@ class _TogglesState extends State<Toggles> {
                   text: 'IOS',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(
@@ -141,7 +142,7 @@ class _TogglesState extends State<Toggles> {
                   text: 'Square',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(
@@ -195,7 +196,7 @@ class _TogglesState extends State<Toggles> {
                   text: 'Custom',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(

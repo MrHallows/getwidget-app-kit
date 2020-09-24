@@ -1,4 +1,4 @@
-package dev.getflutter.appkit
+package dev.getwidget.appkit
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

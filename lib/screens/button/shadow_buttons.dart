@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class ShadowButtons extends StatefulWidget {
   @override
@@ -36,7 +37,7 @@ class _ShadowButtonsState extends State<ShadowButtons> {
                   text: 'Default',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(
@@ -137,7 +138,7 @@ class _ShadowButtonsState extends State<ShadowButtons> {
                   text: 'Button Sizes',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(
@@ -192,7 +193,7 @@ class _ShadowButtonsState extends State<ShadowButtons> {
                   text: 'Block Buttons',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               GFCard(

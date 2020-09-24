@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class Loaders extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _LoadersState extends State<Loaders> {
                 text: 'Basic Loader',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -69,25 +70,25 @@ class _LoadersState extends State<Loaders> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: const <Widget>[
                     GFLoader(
-                      loaderstrokeWidth: 2,
+                      strokeWidth: 2,
                       size: GFSize.SMALL,
                     ),
                     GFLoader(
                       androidLoaderColor:
                           AlwaysStoppedAnimation<Color>(Colors.red),
-                      loaderstrokeWidth: 2,
+                      strokeWidth: 2,
                       size: GFSize.MEDIUM,
                     ),
                     GFLoader(
                       androidLoaderColor:
                           AlwaysStoppedAnimation<Color>(Colors.amber),
-                      loaderstrokeWidth: 2,
+                      strokeWidth: 2,
                       size: GFSize.LARGE,
                     ),
                     GFLoader(
                       androidLoaderColor:
                           AlwaysStoppedAnimation<Color>(Colors.green),
-                      loaderstrokeWidth: 2,
+                      strokeWidth: 2,
                       size: 60,
                     ),
                   ],
@@ -103,7 +104,7 @@ class _LoadersState extends State<Loaders> {
                 text: 'IOS Loader',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -143,7 +144,7 @@ class _LoadersState extends State<Loaders> {
                 text: 'Circular Loader',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -184,7 +185,7 @@ class _LoadersState extends State<Loaders> {
                 text: 'Square Loader',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -225,7 +226,7 @@ class _LoadersState extends State<Loaders> {
                 text: 'Custom Loader',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -259,9 +260,9 @@ class _LoadersState extends State<Loaders> {
                     children: const <Widget>[
                       GFLoader(
                         type: GFLoaderType.custom,
-                        loaderIconOne: Text('Please'),
-                        loaderIconTwo: Text('Wait'),
-                        loaderIconThree: Text('a moment'),
+                        icon1: Text('Please'),
+                        icon2: Text('Wait'),
+                        icon3: Text('a moment'),
                       ),
                     ],
                   ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class PillsButtons extends StatefulWidget {
   @override
@@ -99,7 +100,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Default',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -205,7 +206,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Disabled State',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -310,7 +311,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Button Sizes',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -366,7 +367,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Block Buttons',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -428,7 +429,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Default',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -542,7 +543,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Disabled State',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -656,7 +657,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Button Sizes',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -715,7 +716,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Block Buttons',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -783,7 +784,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Default',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -897,7 +898,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Disabled State',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -1011,7 +1012,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Button Sizes',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(
@@ -1070,7 +1071,7 @@ class _PillsButtonsState extends State<PillsButtons>
                               text: 'Block Buttons',
                               type: GFTypographyType.typo5,
                               dividerWidth: 25,
-                              dividerColor: Color(0xFF19CA4B),
+                              dividerColor: WFAColors.accent,
                             ),
                           ),
                           GFCard(

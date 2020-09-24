@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class ShimmerPage extends StatefulWidget {
   @override
@@ -34,7 +35,7 @@ class _ShimmerPageState extends State<ShimmerPage> {
             text: 'Basic Shimmer Effect',
             type: GFTypographyType.typo5,
             dividerWidth: 25,
-            dividerColor: Color(0xFF19CA4B),
+            dividerColor: WFAColors.accent,
           ),
         ),
         GFShimmer(
@@ -90,7 +91,7 @@ class _ShimmerPageState extends State<ShimmerPage> {
             text: 'Shimmer Effect on Text',
             type: GFTypographyType.typo5,
             dividerWidth: 25,
-            dividerColor: Color(0xFF19CA4B),
+            dividerColor: WFAColors.accent,
           ),
         ),
         GFShimmer(

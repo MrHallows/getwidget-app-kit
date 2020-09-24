@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class SocialButtons extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _SocialButtonsState extends State<SocialButtons> {
                 text: 'Social Buttons Full',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -87,7 +88,7 @@ class _SocialButtonsState extends State<SocialButtons> {
                       Expanded(
                         child: GFButton(
                           onPressed: () {},
-                          child: const Text('Whatsap'),
+                          child: const Text('WhatsApp'),
                           icon: const Icon(
                             IconData(0xe906, fontFamily: 'GFSocialFonts'),
                             color: Colors.white,
@@ -221,7 +222,7 @@ class _SocialButtonsState extends State<SocialButtons> {
                 text: 'Social Buttons Icons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -329,7 +330,7 @@ class _SocialButtonsState extends State<SocialButtons> {
                 text: 'Floating Social Buttons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(

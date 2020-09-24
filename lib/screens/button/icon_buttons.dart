@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class IconButtons extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Solid Icons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -233,7 +234,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Outline Icons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -434,7 +435,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Outline 2x Icons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -636,7 +637,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Square Icons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -840,7 +841,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Pills Icons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -1047,7 +1048,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Shadow Buttons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -1256,7 +1257,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Button Sizes',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -1326,7 +1327,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Block Buttons',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -1394,7 +1395,7 @@ class _IconButtonsState extends State<IconButtons> {
                 text: 'Icons Only',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(

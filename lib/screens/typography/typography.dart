@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class TypographyPage extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class _TypographyPageState extends State<TypographyPage> {
                 text: 'Headings Regular',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -103,7 +104,7 @@ class _TypographyPageState extends State<TypographyPage> {
                 text: 'Opacity',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -173,7 +174,7 @@ class _TypographyPageState extends State<TypographyPage> {
                 text: 'Custom Heading',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(

@@ -1,6 +1,7 @@
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class AlertPage extends StatefulWidget {
   @override
@@ -8,7 +9,7 @@ class AlertPage extends StatefulWidget {
 }
 
 class _AlertPageState extends State<AlertPage> {
-  bool showblur = false;
+  bool showBlur = false;
   Widget alertWidget;
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -31,7 +32,7 @@ class _AlertPageState extends State<AlertPage> {
         ),
         body: GFFloatingWidget(
           verticalPosition: 150,
-          showblurness: showblur,
+          showBlur: showBlur,
           child: alertWidget,
           body: ListView(
             children: <Widget>[
@@ -41,7 +42,7 @@ class _AlertPageState extends State<AlertPage> {
                   text: 'Basic Alert',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               Container(
@@ -53,7 +54,7 @@ class _AlertPageState extends State<AlertPage> {
                           text: 'Tap to View',
                           onPressed: () {
                             setState(() {
-                              showblur = true;
+                              showBlur = true;
                               alertWidget = GFToast(
                                 text: 'hi',
                               );
@@ -63,14 +64,14 @@ class _AlertPageState extends State<AlertPage> {
 //                                content:
 //                                    'Get Flutter is one of the largest Flutter open-source UI library '
 //                                    'for mobile or web apps with  1000+ pre-built reusable widgets.',
-//                                bottombar: Row(
+//                                bottomBar: Row(
 //                                  mainAxisAlignment: MainAxisAlignment.end,
 //                                  children: <Widget>[
 //                                    GFButton(
 //                                      onPressed: () {
 //                                        setState(() {
 //                                          alertWidget = null;
-//                                          showblur = false;
+//                                          showBlur = false;
 //                                        });
 //                                      },
 //                                      shape: GFButtonShape.pills,
@@ -88,7 +89,7 @@ class _AlertPageState extends State<AlertPage> {
 //                                      onPressed: () {
 //                                        setState(() {
 //                                          alertWidget = null;
-//                                          showblur = false;
+//                                          showBlur = false;
 //                                        });
 //                                      },
 //                                      shape: GFButtonShape.pills,
@@ -112,7 +113,7 @@ class _AlertPageState extends State<AlertPage> {
                   text: 'Rounded Alert',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               Container(
@@ -123,7 +124,7 @@ class _AlertPageState extends State<AlertPage> {
                       text: 'Tap to View',
                       onPressed: () {
                         setState(() {
-                          showblur = true;
+                          showBlur = true;
                           alertWidget = GFAlert(
                             alignment: Alignment.center,
                             backgroundColor: Colors.white,
@@ -131,14 +132,14 @@ class _AlertPageState extends State<AlertPage> {
                             content:
                                 'Get Flutter is one of the largest Flutter open-source UI library for mobile or web apps with  1000+ pre-built reusable widgets.',
                             type: GFAlertType.rounded,
-                            bottombar: Row(
+                            bottomBar: Row(
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: <Widget>[
                                 GFButton(
                                   onPressed: () {
                                     setState(() {
                                       alertWidget = null;
-                                      showblur = false;
+                                      showBlur = false;
                                     });
                                   },
                                   color: GFColors.LIGHT,
@@ -154,7 +155,7 @@ class _AlertPageState extends State<AlertPage> {
                                   onPressed: () {
                                     setState(() {
                                       alertWidget = null;
-                                      showblur = false;
+                                      showBlur = false;
                                     });
                                   },
                                   shape: GFButtonShape.pills,
@@ -178,7 +179,7 @@ class _AlertPageState extends State<AlertPage> {
                   text: 'Full Width Alert',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               Container(
@@ -189,21 +190,21 @@ class _AlertPageState extends State<AlertPage> {
                       text: 'Tap to View',
                       onPressed: () {
                         setState(() {
-                          showblur = true;
+                          showBlur = true;
                           alertWidget = GFAlert(
                             backgroundColor: Colors.white,
                             title: 'Welcome !',
                             content:
                                 'Get Flutter is one of the largest Flutter open-source UI library for mobile or web apps with  1000+ pre-built reusable widgets.',
                             type: GFAlertType.fullWidth,
-                            bottombar: Row(
+                            bottomBar: Row(
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: <Widget>[
                                 GFButton(
                                   onPressed: () {
                                     setState(() {
                                       alertWidget = null;
-                                      showblur = false;
+                                      showBlur = false;
                                     });
                                   },
                                   shape: GFButtonShape.square,
@@ -220,7 +221,7 @@ class _AlertPageState extends State<AlertPage> {
                                   onPressed: () {
                                     setState(() {
                                       alertWidget = null;
-                                      showblur = false;
+                                      showBlur = false;
                                     });
                                   },
                                   shape: GFButtonShape.square,
@@ -245,7 +246,7 @@ class _AlertPageState extends State<AlertPage> {
                   text: 'Custom Alert',
                   type: GFTypographyType.typo5,
                   dividerWidth: 25,
-                  dividerColor: Color(0xFF19CA4B),
+                  dividerColor: WFAColors.accent,
                 ),
               ),
               Container(
@@ -257,7 +258,7 @@ class _AlertPageState extends State<AlertPage> {
                         text: 'Tap to View',
                         onPressed: () {
                           setState(() {
-                            showblur = true;
+                            showBlur = true;
                             alertWidget = GFAlert(
                               alignment: Alignment.center,
                               backgroundColor: Colors.white,
@@ -266,16 +267,16 @@ class _AlertPageState extends State<AlertPage> {
                                 width: 80,
                               ),
                               contentChild: const Text(
-                                'You have succesfully viewed the Custom Alert... Hurrayyy!!',
+                                'You have successfully viewed the Custom Alert!',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                     fontSize: 15, fontWeight: FontWeight.bold),
                               ),
-                              bottombar: GFButton(
+                              bottomBar: GFButton(
                                 onPressed: () {
                                   setState(() {
                                     alertWidget = null;
-                                    showblur = false;
+                                    showBlur = false;
                                   });
                                 },
                                 fullWidthButton: true,

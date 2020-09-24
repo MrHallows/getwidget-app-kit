@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class MessengerFloatingWidget extends StatefulWidget {
   @override
@@ -42,7 +43,7 @@ class _MessengerFloatingWidgetState extends State<MessengerFloatingWidget> {
                     text: 'Avatar as a Floating Widget',
                     type: GFTypographyType.typo5,
                     dividerWidth: 25,
-                    dividerColor: Color(0xFF19CA4B),
+                    dividerColor: WFAColors.accent,
                   ),
                 ),
                 GFButton(

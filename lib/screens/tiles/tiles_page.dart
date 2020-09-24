@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 
 class TilesPage extends StatefulWidget {
   @override
@@ -13,9 +14,7 @@ class _TilesPageState extends State<TilesPage> {
         appBar: AppBar(
           backgroundColor: GFColors.DARK,
           leading: InkWell(
-              onTap: () {
-                Navigator.pop(context);
-              },
+              onTap: () => Navigator.pop(context),
               child: Container(
                 child: Icon(
                   CupertinoIcons.back,
@@ -36,7 +35,7 @@ class _TilesPageState extends State<TilesPage> {
                 text: 'With Label',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             GFCard(
@@ -59,7 +58,7 @@ class _TilesPageState extends State<TilesPage> {
                 text: 'With Avatar',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             const GFCard(

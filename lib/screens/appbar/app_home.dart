@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:gf_app/colors.dart';
 import 'appbar.dart';
 import 'searchbar.dart';
 import 'segmented_appbar.dart';
@@ -38,7 +39,7 @@ class _AppHomeState extends State<AppHome> {
                 text: 'Basic Appbar',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             Container(
@@ -51,7 +52,7 @@ class _AppHomeState extends State<AppHome> {
                 text: 'Appbar with SearchBox',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             Container(
@@ -64,7 +65,7 @@ class _AppHomeState extends State<AppHome> {
                 text: 'Segmented Tabs Appbar',
                 type: GFTypographyType.typo5,
                 dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                dividerColor: WFAColors.accent,
               ),
             ),
             Container(

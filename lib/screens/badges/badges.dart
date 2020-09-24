@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class BadgesPage extends StatefulWidget {
   @override
@@ -21,10 +22,16 @@ class _BadgesPageState extends State<BadgesPage> {
             ),
           ),
           backgroundColor: GFColors.DARK,
-          title: const Text(
-            'Badges',
-            style: TextStyle(fontSize: 17),
+          title: const GFTypography(
+            text: 'Badges',
+            type: GFTypographyType.typo4,
+            textColor: WFAColors.accent,
+            showDivider: false,
           ),
+          // Text(
+          //   'Badges',
+          //   style: TextStyle(fontSize: 17),
+          // ),
           centerTitle: true,
         ),
         body: ListView(
@@ -32,10 +39,11 @@ class _BadgesPageState extends State<BadgesPage> {
             const Padding(
               padding: EdgeInsets.only(left: 15, top: 20),
               child: GFTypography(
-                text: 'With Buttons',
-                type: GFTypographyType.typo5,
-                dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                text: 'Buttons',
+                type: GFTypographyType.typo4,
+                textColor: WFAColors.accentColorLight,
+                dividerWidth: 60,
+                dividerColor: WFAColors.primaryColorLight,
               ),
             ),
             GFCard(
@@ -150,6 +158,7 @@ class _BadgesPageState extends State<BadgesPage> {
                           ),
                           onPressed: () {},
                           text: 'Light',
+                          textColor: WFAColors.primaryColorDark,
                           color: GFColors.LIGHT,
                         ),
                       ),
@@ -193,10 +202,11 @@ class _BadgesPageState extends State<BadgesPage> {
             const Padding(
               padding: EdgeInsets.only(left: 15, top: 20),
               child: GFTypography(
-                text: 'Icon with Badges',
-                type: GFTypographyType.typo5,
-                dividerWidth: 25,
-                dividerColor: Color(0xFF19CA4B),
+                text: 'Icons',
+                type: GFTypographyType.typo4,
+                textColor: WFAColors.accentColorLight,
+                dividerWidth: 60,
+                dividerColor: WFAColors.primaryColorLight,
               ),
             ),
             GFCard(

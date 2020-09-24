@@ -762,8 +762,8 @@ class _DrawerPageState extends State<DrawerPage> {
                         context,
                         MaterialPageRoute(
                           builder: (BuildContext context) => WebView(
-                              // url: 'https://docs.getflutter.dev/'
-                              ),
+                            // url: 'https://docs.getwidget.dev/'
+                          ),
                         ),
                       );
                     },

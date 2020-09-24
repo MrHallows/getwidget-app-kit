@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
+import 'package:gf_app/colors.dart';
 
 class RatingPage extends StatefulWidget {
   @override
@@ -12,7 +13,7 @@ class _RatingPageState extends State<RatingPage> {
   final _customController = TextEditingController();
   double _userRating = 4.5;
   double _rating = 3;
-  double _customrating = 2;
+  double _customRating = 2;
   double _iconRating = 2;
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -41,7 +42,7 @@ class _RatingPageState extends State<RatingPage> {
               text: 'Basic Rating',
               type: GFTypographyType.typo5,
               dividerWidth: 25,
-              dividerColor: Color(0xFF19CA4B),
+              dividerColor: WFAColors.accent,
             ),
           ),
           GFRating(
@@ -60,7 +61,7 @@ class _RatingPageState extends State<RatingPage> {
               text: 'Rating with Icons',
               type: GFTypographyType.typo5,
               dividerWidth: 25,
-              dividerColor: Color(0xFF19CA4B),
+              dividerColor: WFAColors.accent,
             ),
           ),
           GFRating(
@@ -84,7 +85,7 @@ class _RatingPageState extends State<RatingPage> {
               text: 'Rating using Text Field',
               type: GFTypographyType.typo5,
               dividerWidth: 25,
-              dividerColor: Color(0xFF19CA4B),
+              dividerColor: WFAColors.accent,
             ),
           ),
           GFRating(
@@ -120,13 +121,13 @@ class _RatingPageState extends State<RatingPage> {
               text: 'Custom Rating',
               type: GFTypographyType.typo5,
               dividerWidth: 25,
-              dividerColor: Color(0xFF19CA4B),
+              dividerColor: WFAColors.accent,
             ),
           ),
           GFRating(
             color: GFColors.DANGER,
             borderColor: GFColors.DANGER,
-            value: _customrating,
+            value: _customRating,
             showTextForm: true,
             halfFilledIcon: Icon(
               Icons.star_half,
@@ -140,7 +141,7 @@ class _RatingPageState extends State<RatingPage> {
               type: GFButtonType.transparent,
               onPressed: () {
                 setState(() {
-                  _customrating = double.parse(_customController.text ?? '0.0');
+                  _customRating = double.parse(_customController.text ?? '0.0');
                 });
               },
               child: Icon(Icons.insert_emoticon),
