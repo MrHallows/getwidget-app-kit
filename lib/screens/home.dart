@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:getwidget/getwidget.dart';
 import 'package:gf_app/colors.dart';
+import 'package:gf_app/screens/logger/logger.dart';
 import 'package:gf_app/screens/radio_list_tile/radio_list_tile.dart';
 import 'package:gf_app/screens/accordion/accordion.dart';
 import 'package:gf_app/screens/alert/alert.dart';
@@ -227,6 +228,17 @@ class _HomePageState extends State<HomePage> {
 						width: 150,
 					),
 					centerTitle: true,
+					actions: [
+						IconButton(
+							icon: Icon(Icons.developer_mode),
+							onPressed: () {
+								Navigator.push(
+									context,
+									MaterialPageRoute(builder: (BuildContext context) => LoggerPage()),
+								);
+							}
+						),
+					],
 				),
 				body: ListView(
 					physics: const BouncingScrollPhysics(),
